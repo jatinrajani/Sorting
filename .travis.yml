@@ -1,0 +1,12 @@
+sudo : required
+ 
+ language : cpp
+ 
+ compiler:
+ - clang
+ - gcc
+ 
+ script: 
+ - ls
+ - gcc MergeSort.cpp -o day
+ - echo compiled successfully
